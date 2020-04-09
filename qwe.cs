@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Problems
 {
-  public class consolewriteline
+  public class Say
   {
-    public static void say()
+    public static void SayIt()
     {
       System.Console.WriteLine("hello from the other side");
       System.Console.WriteLine("hello from the other side");
