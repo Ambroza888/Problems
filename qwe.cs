@@ -8,6 +8,8 @@ namespace Problems
     public static void say()
     {
       System.Console.WriteLine("hello from the other side");
+      System.Console.WriteLine("hello from the other side");
+      System.Console.WriteLine("hello from the other side");
     }
   }
 }
