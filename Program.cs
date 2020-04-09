@@ -8,6 +8,7 @@ namespace Problems
         {
             Console.WriteLine("Hello World!");
             consolewriteline.say();
+            consolewriteline.say();
         }
     }
 }
