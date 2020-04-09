@@ -6,9 +6,8 @@ namespace Problems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            string[] intarr = {"nemo","Julio"};
+            int[] intarr = {1,2,3,4,5};
             Say.SayIt(intarr);
         }
     }
-}
+} 
