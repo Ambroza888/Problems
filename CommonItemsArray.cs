@@ -9,6 +9,7 @@ namespace Problems
       //['a','b','c','X'] , ['z','y''X'] -- > false
     public static bool On2(int[] arr1,int[] arr2)
     {
+      // O(a*b)
       foreach(int i in arr1)
       {
         foreach(int j in arr2)
@@ -33,6 +34,11 @@ namespace Problems
         }
       }
       return false;
+    }
+
+    public static void Third(int[] arr1, int[]arr2)
+    {
+
     }
   }
 }
