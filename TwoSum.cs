@@ -21,7 +21,19 @@ namespace Problems
     }
     public static bool Good(int[] arr, int target)
     {
-      return true;
+      HashSet<int> set = new HashSet<int>();
+      foreach(int i in arr)
+      {
+        if(set.Contains(i))
+        {
+          return true;
+        }
+        else
+        {
+          set.Add(target - i);
+        }
+      }
+      return false;
     }
   }
 
