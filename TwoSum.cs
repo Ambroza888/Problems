@@ -19,5 +19,10 @@ namespace Problems
       }
       return false;
     }
+    public static bool Good(int[] arr, int target)
+    {
+      return true;
+    }
   }
+
 }
