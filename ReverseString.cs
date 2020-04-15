@@ -6,7 +6,7 @@ namespace Problems
 {
   class ReverseString
   {
-    public static string option1(string str)
+    public static void option1(string str)
     {
       //[hello] [hellh] [oellh]
       char[] s = str.ToCharArray();
@@ -17,7 +17,12 @@ namespace Problems
         s[i] = s[s.Length- 1 - i];
         s[s.Length-1- i] = temp;
       }
-      return s.ToString();
+      s.ToString();
+      foreach(char i in s) Console.Write(i);
+    }
+    public static void option2(string str)
+    {
+      char[] result = new char[str.Length]; 
     }
   }
 }
