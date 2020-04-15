@@ -6,12 +6,8 @@ namespace Problems
     {
         static void Main(string[] args)
         {
-            VesoArray myarr = new VesoArray();
-            myarr.push('a');
-            myarr.push('b');
-            myarr.push('c');
-            myarr.push('d');
-            myarr.Remove(2);
+            string yo = "123456";
+            ReverseString.option1(yo);
         }
     }
 } 

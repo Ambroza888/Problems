@@ -6,15 +6,18 @@ namespace Problems
 {
   class ReverseString
   {
-    public static void option1(string str)
+    public static string option1(string str)
     {
       //[hello] [hellh] [oellh]
-      char[] charstr = str.ToCharArray();
+      char[] s = str.ToCharArray();
       int l = str.Length/2;
       for(int i = 0; i < l ; i++)
       {
-
+        char temp = s[i];
+        s[i] = s[s.Length- 1 - i];
+        s[s.Length-1- i] = temp;
       }
+      return s.ToString();
     }
   }
 }
